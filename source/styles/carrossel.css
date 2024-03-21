@@ -1,11 +1,8 @@
-.carrossel{
-
-}
 
 .carrossel__titulo{
     font-size: 18px;
     font-weight: 700;
-    padding: 1em 0 0.5em 0;   
+    padding: 2em 0 0.5em 0;   
     color: var(--cor_amarelo);
     background-color: var(--cor_branca);
     text-align: center;
@@ -44,6 +41,10 @@
     margin-bottom: 0.5em;
 }
 
+.descricao{
+    justify-content: space-between;
+}
+
 .descricao__titulo{
     color: var(--cor_amarelo);
     font-weight: 700;
@@ -60,6 +61,14 @@
 
 .descricao__texto{
     font-size: 14px;
+    
+}
+
+.descricao__estrelas{
+    display: flex;
+    background: url('../imagens/estrelinhas.svg') no-repeat;
+    color: transparent;
+    padding: .5em 0 .5em 0;
 }
 
 .card__botoes{
