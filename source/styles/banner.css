@@ -55,4 +55,15 @@
 
 @media screen and (min-width: 1728px) {
 
+    .banner{
+        padding: 6em;
+    }
+
+    .banner__busca{
+        width: 35%;
+    }
+
+    .banner__busca::placeholder{
+        background-position: 8em;
+    }
 }

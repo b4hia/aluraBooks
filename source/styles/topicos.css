@@ -9,6 +9,7 @@
     font-weight: 300;
     padding: 2em 0;
     margin-bottom: 1em;
+    text-transform: uppercase;
 }
 
 .topicos__lista{
@@ -46,4 +47,7 @@
 
 @media screen and (min-width: 1728px) {
 
+    .topicos{
+        padding: 3em 25vw;
+    }
 }
