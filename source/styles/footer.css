@@ -85,7 +85,7 @@ hr{
         font-size: 24px;
         color: var(--cor_preto);
     }
-    
+
     .lista-rodape{
         display: block;
     }
@@ -107,4 +107,8 @@ hr{
         text-decoration: none;
         cursor: pointer;
     }
+}
+
+@media screen and (min-width: 1728px) {
+
 }
