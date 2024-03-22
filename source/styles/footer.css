@@ -50,3 +50,26 @@
 hr{
     margin: 0;
 }
+
+
+@media screen and (min-width: 1024px) {
+
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__titulo{
+        font-size: 24px;
+    }
+
+    .contato__email{
+        width: 30%;
+    }
+
+    .contato__decricao{
+        margin: 1em;
+        width: 30%;
+    }
+}
