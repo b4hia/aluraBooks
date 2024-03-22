@@ -51,6 +51,9 @@ hr{
     margin: 0;
 }
 
+.lista-rodape{
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
 
@@ -71,5 +74,37 @@ hr{
     .contato__decricao{
         margin: 1em;
         width: 30%;
+    }
+
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape__titulo{
+        font-size: 24px;
+        color: var(--cor_preto);
+    }
+    
+    .lista-rodape{
+        display: block;
+    }
+
+    .lista-rodape__titulo{
+        color: var(--cor_cinza_claro);
+        font-size: 14px;
+    }
+
+    .lista-rodape__item{
+        margin: 0.6em 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .lista-rodape__link{
+        margin-left: .6em;
+        color: var(--cor_cinza);
+        text-decoration: none;
+        cursor: pointer;
     }
 }
