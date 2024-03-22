@@ -36,6 +36,14 @@
     display: none;
 }
 
+.container__check:checked~.container__rotulo > .cabecalho__menu__sanduiche {
+    background-image: url("../imagens/Menu\ Aberto.svg");
+}
+
+.container__check:checked ~.container__rotulo{
+    background: var(--cor_azul_degrade);
+}
+
 .container__check:checked~.lista-menu {
     display: block;
 }
@@ -108,6 +116,11 @@ h1 {
         color: var(--cor_preto);
     }
 
+    .opcoes__check:checked~.opcoes__rotulo{
+        background: var(--cor_azul_degrade);
+        color: var(--cor_branca);
+    }
+
     .opcoes__item {
         padding: 1em;
         cursor: pointer;
@@ -129,6 +142,15 @@ h1 {
 
     .opcoes__check {
         display: none;
+    }
+
+    .lista-menu__item:hover{
+        background: var(--cor_azul_degrade);
+    }
+
+    
+    .lista-menu__item:hover > .lista-menu__link{
+        -webkit-text-fill-color: var(--cor_branca);
     }
 
 }
@@ -154,19 +176,5 @@ h1 {
         margin-right: auto;
     }
 
-    .opcoes__item:hover {
-        background: var(--cor_azul_degrade);
-        color: var(--cor_branca);
-    }
 
-    .lista-menu__item:hover{
-        background-color: var(--cor_azul_degrade);
-    }
-
-    .lista-menu__link:hover {
-        background: var(--cor_branca);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
 }
